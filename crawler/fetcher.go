@@ -38,7 +38,6 @@ func (c *Crawler) processURL(myURL string) (*siteMapEntry, []string, error) {
 	if err != nil {
 		return nil, nil, fmt.Errorf("Failed to get page %q: %v", myURL, err)
 	}
-
 	defer resp.Body.Close()
 
 	if resp.StatusCode != http.StatusOK {
