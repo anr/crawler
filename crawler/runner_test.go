@@ -30,7 +30,9 @@ var pages = map[string]string{
 	"/c": `<!DOCTYPE html>
 		<html>
 			<head></head>
-			<body></body>
+			<body>
+				<a href="/missing">missing</a>
+			</body>
 		</html>`,
 }
 
