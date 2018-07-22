@@ -33,5 +33,4 @@ $ go test -race ./...
 ## TODO
 
 * Switch to `vgo`
-* Add CI
 * More extensive testing
